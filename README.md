@@ -16,7 +16,7 @@ example json for product
     }
 
 ## Examples for use {#examples}
-
+[video walkthrough](https://bootcampspot.instructuremedia.com/embed/579e97a7-1153-4d6a-bbdc-39f39c363b1b)
 if you have a business, you will love this program
 
 
