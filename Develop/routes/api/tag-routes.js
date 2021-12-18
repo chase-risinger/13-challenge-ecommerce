@@ -58,12 +58,12 @@ router.delete('/:id', (req, res) => {
       id: req.params.id
     }
   })
-    .then(dbProductData => {
-      if (!dbProductData) {
-        res.status(404).json({ message: 'No product found with this id' });
+    .then(dbTagData => {
+      if (!dbTagData) {
+        res.status(404).json({ message: 'No tag found with this id' });
         return;
       }
-      res.json(dbProductData);
+      res.json(dbTagData);
     })
     .catch(err => {
       console.log(err);
